@@ -1,0 +1,173 @@
+.clinic_card{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #dbbdf9;
+}
+
+.clinic_inner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clinic_logo{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    background: #7d25d7;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.clinic_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.view_clinic_inner{
+    background-color: #f2eafa;
+    min-height: 100vh;
+    padding: 10px;
+   
+    
+}
+
+.view_clinic_body{
+    gap: 20px;
+}
+
+.view_clinic_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+    padding: 5px;
+    
+    /* gap: 10px; */
+}
+
+.view_upper_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    width: 100%;
+}
+
+.view_clinic_name{
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    /* padding: 15px; */
+}
+
+.view_photo{
+    height: 150px;
+    width: 150px;
+    background-color: #aaa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card_btns{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* border: 1px solid red; */
+    
+}
+
+.card_btns button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.1rem;
+    /* padding: 2px 4px; */
+    color: #7d25d7;
+}
+
+.btn_message{
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    margin: 5px;
+    color: #aaa;
+}
+
+.view_clinic_middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 200px;
+    margin-top: 10px;
+}
+
+.view_clinic_info{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.view_clinic_title{
+    width: 100%;
+    padding: 10px 0;
+    /* color: #aaa; */
+    font-size: 1.1rem;
+    font-size: 200;
+}
+
+.view_doctors{
+    font-size: 1.4rem;
+    color: #aaa;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.btn_back1{
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.card_doctor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+}
+
+.view_clinic_docs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card_doc_photo{
+    height: 35px;
+    width: 35px;
+    aspect-ratio: 1;
+}
+
+.card_doc_photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}

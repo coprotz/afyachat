@@ -1,0 +1,177 @@
+.main_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main_welcome{
+    display: flex;
+    flex-direction: column;
+    background: #7d25d7;
+    color: white;
+    padding: 15px 15px 0px 15px;
+    height: fit-content;
+    border-radius: 0 0 15px 15px;
+    position: sticky;
+    top: 0;
+    height: 220px;
+}
+
+.main_body{
+    min-height: calc(100vh - 220px);
+    overflow-y: scroll;
+}
+
+.count_none{
+    display: none;
+}
+
+
+
+.main_pinned{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    /* height: 100px; */
+    margin-top: 15px;
+}
+
+.pinned_lists{
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn_add{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7d25d7;
+}
+
+.pined_img{
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1;
+    /* margin-top: 10px; */
+}
+
+.pined_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.main_menu_items{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.main_menu_items a{
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+    font-size: 1rem;
+}
+
+.active{
+    background-color: white;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #7d25d7 !important;
+  
+  
+
+}
+
+.chart_card{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_inner{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card_img{
+    width: 35px;
+    height: 35px;
+    aspect-ratio: 1;
+
+}
+
+.card_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.chats_container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-height: 100%;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.sender_name{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.card_status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last_text{
+    font-size: 1rem;
+    width: 23ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.counts_chats{
+    width: 25px;
+    height: 25px;
+    background-color: #7d25d7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
+
+.loading_page{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 100;
+}
+
