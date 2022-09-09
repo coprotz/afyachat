@@ -25,9 +25,10 @@
     background-color: #7d25d7;
     justify-content: center;
     width: 100vw;
-    left: -2px;
+    left: -15px;
     animation: 0.5s down;
     height: fit-content;
+    text-align: left;
     /* padding: 20px; */
 }
 
@@ -50,9 +51,11 @@
     font-size: 1.2rem;
     font-weight: 600;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 8vh;
     transition: all 1s ease;
+    padding-left: 30px;
+   
 
 }

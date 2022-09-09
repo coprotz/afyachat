@@ -9,6 +9,7 @@ import Navbar from '../../components/navbar/Navbar';
 import useData from '../../hooks/useData';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Register from '../register/Register';
 
 
 const Main = () => {
@@ -80,6 +81,10 @@ const Main = () => {
                 </div>
               
             </div>
+            )
+        }else{
+            return (
+                <Register/>
             )
         }
     }

@@ -56,7 +56,7 @@ const ViewDoctor = () => {
                 {active===3 &&              
                 <div className="profile__items_down">
                     <ol>
-                         {doctor && doctor.languages.map((item, index) =>(                     
+                         {doctor && doctor.langs.map((item, index) =>(                     
                            <li key={index}>{item}</li>                     
                         ))}
                     </ol>

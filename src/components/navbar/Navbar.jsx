@@ -23,6 +23,9 @@ const Navbar = () => {
         <button className='btn_menu' onClick={() => setOpen(!open)}>{open? <TbX/> : <TbMenu2/>}</button>
         {open &&
         <div className="navbar_menu_items">
+          {!user && 
+          <span onClick={()=>{navigate('/'); setOpen(null)}}>Home</span>
+          }
           {user &&<>
             <span onClick={()=>{navigate('/profile'); setOpen(null)}}>My Profile</span>
             <span onClick={()=>{navigate('/main/doctors'); setOpen(null)}}>Doctors</span>

@@ -7,10 +7,14 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px 20px;
     flex-direction: column;
     color: white;
     text-align: center;
+}
+
+.home_top{
+    font-size: 1.3rem;
 }
 
 .home_bottom{

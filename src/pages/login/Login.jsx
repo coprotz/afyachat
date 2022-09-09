@@ -25,7 +25,7 @@ const Login = () => {
        
           <button onClick={() => navigate('/')} className='btn_back' ><MdArrowBack/></button>
           <div className="login_welcome">
-            AfyaCHAT
+            <span>Afya<strong>CHAT</strong></span>  
           </div>
         </div>
         <div className="login_wrapper">

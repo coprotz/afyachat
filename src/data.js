@@ -130,3 +130,21 @@ export const departments = [
    
 
 ]
+export const applicants = [
+    {id: '123456', name: 'Dr. James Wangira', phone: '+255767157057' },
+    {id: '111111', name: 'Dr. Kachwere M', phone: '+255767157057' },
+    {id: '222222', name: 'Dr. Mandonga M', phone: '+255767157057' },
+    {id: '333333', name: 'Dr. Sikuzani John', phone: '+255767157057' },
+]
+
+export const languages = [
+    {id: '41514s51w5', name: 'English'},
+    {id: '41514ssd51w5', name: 'Swahili'},
+    {id: '41514s5wed1w5', name: 'Franch'},
+    {id: '41514sdfvv51w5', name: 'Arabic'},
+    {id: '41514dedffs51w5', name: 'Hindu'}
+]
+
+export const diseases = [
+    'Anemia', 'Asthma', 'Arthritis', 'Cancer', 'Gout', 'Diabetes', 'Emotional Disorder', 'Epilepsy Seizures', 'Fainting Spells', 'Gallstones','Heart Disease','Heart Attack', 'Rheumatic Fever', 'High Blood Pressure', 'Digestive Problems', 'Ulcerative Colitis', 'Ulcer Disease','Hepatitis', 'Kidney Disease', 'Liver Disease', 'Sleep Apnea', 'Use a C-PAP machine', 'Thyroid Problems', 'Tuberculosis', 'Venereal Disease', 'Neurological Disorders', 'Bleeding Disorders', 'Lung Disease', 'Emphysema'
+]

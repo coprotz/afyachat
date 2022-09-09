@@ -21,6 +21,7 @@
 .main_body{
     min-height: calc(100vh - 220px);
     overflow-y: scroll;
+    background-color: rgb(234, 234, 234);
 }
 
 .count_none{
@@ -171,7 +172,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgb(234, 234, 234);
     z-index: 100;
 }
 

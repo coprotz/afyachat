@@ -3,7 +3,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: #eee5f8;
+    background-color: rgb(234, 234, 234);
 }
 .chat_room_top{
     height: 50px;

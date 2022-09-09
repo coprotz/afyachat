@@ -188,7 +188,7 @@ const Profile = () => {
                         {active===3 &&              
                         <div className="profile__items_down">
                             <ol>
-                                {isDoctor && isDoctor.languages.map((item, index) =>(                     
+                                {isDoctor && isDoctor.langs.map((item, index) =>(                     
                                 <li key={index}>{item}</li>                     
                                 ))}
                             </ol>

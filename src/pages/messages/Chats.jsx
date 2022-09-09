@@ -11,10 +11,13 @@ const Chats = () => {
   console.log('userchats', userChats)
   return (
     <div className='chats_container'>
-      {userChats && userChats.map(chat => (
-        <ChatCard chat={chat} key={chat.id}/>
-      ))}
-      
+      {userChats.length > 0? 
+      <>      
+        {userChats && userChats.map(chat => (
+          <ChatCard chat={chat} key={chat.id}/>
+        ))}
+      </>
+      : <span>You dont have chat rooms</span>}
     
     </div>
   )
